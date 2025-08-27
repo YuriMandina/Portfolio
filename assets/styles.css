@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
+/* Reset */
 html, body {
 font-family: Ubuntu, Arial;
 width: 100%;
 height: 100%;
 }
 
+/* Header */
 #header {
     position: fixed;
     top: 0;
@@ -19,7 +21,7 @@ height: 100%;
     z-index: 9997;
 }
 
-
+/* Profile frame */
 #header .profile img{
 margin: 15px auto;
 display: block;
@@ -28,6 +30,7 @@ border: 8px solid #2c2f3f;
 border-radius: 50%;
 }
 
+/* Profile title */
 #header .profile h1 {
     font-size: 24px;
     margin: 0;
@@ -37,6 +40,7 @@ border-radius: 50%;
     color: #fff;
 }
 
+/* Navbar  */
 #header .profile .social-links a {
     font-size: 1rem;
     background: #212431;
@@ -102,7 +106,7 @@ section#inicio {
 }
 
 section#inicio h2 {
-    font-size: 5rem;
+    font-size: 6rem;
 }
 
 section#inicio span#subtittle {
@@ -164,4 +168,23 @@ i.menu-mobile {
     #main {
         margin-left: 0;
     }
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    width: 12px;
+    box-shadow: inset 0 0 0.3rem #00000050;
+    background-color: #fff;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #020c9a;
+    border-radius: 10px;
+}
+
+.section-bg{
+    background-color: #eff5ff;
 }
