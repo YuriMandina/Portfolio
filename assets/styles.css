@@ -162,7 +162,6 @@ i.menu-mobile {
         font-size: 3rem;
     }
     section#inicio span#subtittle {
-        margin-right: 0;
         font-size: 1rem;
     }
     #main {
@@ -199,10 +198,14 @@ i.menu-mobile {
 
 @media (max-width: 1860px) {
     .carousel-control-prev{
-        margin-left: 0;
+        width: 30px;
+        margin-left: -3rem;
     }
 
     .carousel-control-next{
-        margin-right: 0;
+        width: 30px;
+        margin-right: -3rem;
     }
 }
+
+
