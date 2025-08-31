@@ -104,7 +104,7 @@ textarea{
 }
 
 section#inicio {
-    background-image: url("/assets/images/background.png");
+    background-image: url("../assets/images/background.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
