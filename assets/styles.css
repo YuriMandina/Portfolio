@@ -91,6 +91,7 @@ border-radius: 50%;
     color: #149ddd;
 }
 
+/* Main section spacing, styling, section alternative color and responsiveness */
 #main {
     margin-left: 300px;
 }
@@ -134,6 +135,7 @@ section#inicio div#arraste a {
     color: #fff;
 }
 
+/* Mobile Menu Icon */
 i.menu-mobile {
     position: fixed;
     color: #fff;
@@ -159,6 +161,7 @@ i.menu-mobile {
     left: 0;
 }
 
+/* Responsive Menu */
 @media (max-width: 1070px) {
     #header {
         left: -300px;
@@ -193,7 +196,6 @@ i.menu-mobile {
 }
 
 /* Carousel */
-
 .carousel-control-prev{
     margin-left: -8rem;
 }
@@ -203,7 +205,6 @@ i.menu-mobile {
 }
 
 /* Animations */
-
 [data-anime] {
     opacity: 0;
     transition: 1s;
@@ -230,6 +231,7 @@ i.menu-mobile {
     transform: translate3d(0, 0, 0);
 }
 
+/* Carousel responsiveness */
 @media (max-width: 1860px) {
     .carousel-control-prev{
         width: 30px;

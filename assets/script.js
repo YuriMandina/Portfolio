@@ -1,5 +1,4 @@
 /* Open and close mobile menu */
-
 const menuMobile = document.querySelector('.menu-mobile');
 const body = document.querySelector('body');
 
@@ -22,8 +21,7 @@ navItem.forEach(item => {
     })
 });
 
-/* Animation */
-
+/* Animation on scroll */
 const item = document.querySelectorAll('[data-anime]');
 
 const animeScroll = () => {
